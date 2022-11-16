@@ -1,4 +1,49 @@
-h1{
+/* 
+body{
+    background-image: url("/Image/GobCesar.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}*/
+h1,p{
     color: red;
     text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+span p {
+    color:blue;
+    font-size: 20px;
+}
+/* 2. Selector de Clases 
+    - class Nombre que esta tenga 
+    se escriben .nombre de la clase */
+
+.ejemplo{
+    background-color: rgb(254, 254, 255);
+    height: 35px;
+}
+
+/* 3. Selectores de Id valores unicos 
+    - los Id se idnetifican con la # */
+
+#Colores {   
+    color:black;
+    font-size:  25px;
+}
+
+#Orange{
+    color: orange;
+}
+#Green{
+    color: Green;
+}
+#Red{
+    color: Red;
+}
+h3{
+    background-color: black;
+    color: aliceblue;
+    border: solid red 10px;
+    border-top-style: dashed;
 }
